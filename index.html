@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MeAndLinux</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>MeAndLinux🐧</h1>
+        <hr width="50%" size="2" color="blue" noshade>
+        <p>The place for you and <strong>Linux</strong> be a one body (or <strong><i>system</i></strong>)</p>
+    </header>
+
+    <div id="chooseContainer">
+        <h2>Options of Distros</h2>
+
+        <table border="" bordercolor="">
+
+            <!-- Cabeçalho -->
+            <thead>
+                <!-- Linha -->
+                <tr>
+                    <!-- Células -->
+                    <th>Distro</th>
+                    <th>Version</th>
+                    <th>Bit-Version</th>
+                </tr>
+            </thead>
+
+            <!-- Resto da Tabela -->
+            <tbody>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="linkUbuntu" href="#">Ubuntu</a>
+                    </th>
+                    <th>
+                        <select id="optUbuntu">
+                            <option>24.4.01 LTS</option>
+                            <option>22.4.05 LTS</option>
+                        </select>
+                    </th>
+                    <th>
+                        <select>
+                            <option>32-bits</option>
+                            <option>64-bits</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="linkMint" href="#">Linux Mint</a>
+                    </th>
+                    <th>
+                        <select id="optMint">
+                            <option>LMDE 6 Faye</option>
+                            <option>LMDE 3 Cindy</option>
+                        </select>
+                    </th>
+                    <th>
+                        <select>
+                            <option>32-bits</option>
+                            <option>64-bits</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="linkArch" href="#">Arch Linux</a>
+                    </th>
+                    <th>
+                        <select id="optArch">
+                            <option>&nbsp;</option>
+                        </select>
+                    </th>
+                    <th>
+                        <select>
+                            <option>&nbsp;</option>
+                        </select>
+                    </th>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="explication">
+        <h2>For what this page was create?</h2>
+        <br>
+        <ul>
+            <li>Help begginers in how download and use the <strong>Linux distros</strong></li>
+            <li>Show the more right and fast way to use, configure, etc. a <strong>Linux distro</strong></li>
+            <li>Update you for new versions of <strong>Linux distros</strong></li>
+        </ul>
+    </div>
+
+    <script src=" ./main.js"></script>
+</body>
+
+</html>

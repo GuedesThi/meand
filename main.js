@@ -1,4 +1,4 @@
-// * tags <a>
+/*// * tags <a>
 const linkUbuntu = document.getElementById("linkUbuntu");
 const linkMint = document.getElementById("linkMint");
 
@@ -36,3 +36,4 @@ linkMint.addEventListener("click", (event) => {
         alert("Selecione uma versão válida.");
     }
 });
+*/

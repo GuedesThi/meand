@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-    <title>MeAndLinux</title>
+    <title>Computando</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,13 +12,15 @@
 
 <body>
     <header>
-        <h1>MeAndLinux🐧</h1>
+        <h1>Computando🖥</h1>
         <hr width="50%" size="2" color="blue" noshade>
-        <p>The place for you and <strong>Linux</strong> be a one body (or <strong><i>system</i></strong>)</p>
+        <p>O local para você e o <strong>mundo da computação</strong> serem um só corpo (ou
+            <strong><i>sistema</i></strong>)
+        </p>
     </header>
 
     <div id="chooseContainer">
-        <h2>Options of Distros</h2>
+        <h2>Guia de Estudo</h2>
 
         <table border="" bordercolor="">
 
@@ -27,9 +29,9 @@
                 <!-- Linha -->
                 <tr>
                     <!-- Células -->
-                    <th>Distro</th>
-                    <th>Version</th>
-                    <th>Bit-Version</th>
+                    <th>Conteúdo</th>
+                    <th>Nível mínimo de entendimento</th>
+                    <th>Sistema Operacional</th>
                 </tr>
             </thead>
 
@@ -38,52 +40,258 @@
                 <!-- Linha -->
                 <tr>
                     <th>
-                        <a id="linkUbuntu" href="#">Ubuntu</a>
+                        <a id="lbasicomputador" href="./ini/all/basicomputer/index.html">Básico de Computadores</a>
                     </th>
-                    <th>
-                        <select id="optUbuntu">
-                            <option>24.4.01 LTS</option>
-                            <option>22.4.05 LTS</option>
-                        </select>
-                    </th>
+                    <th>Iniciante</th>
                     <th>
                         <select>
-                            <option>32-bits</option>
-                            <option>64-bits</option>
+                            <option>&nbsp;</option>
                         </select>
                     </th>
                 </tr>
                 <!-- Linha -->
                 <tr>
                     <th>
-                        <a id="linkMint" href="#">Linux Mint</a>
+                        <a id="lenviodados" href="./ini/all/internetdata/index.html">Internet e envio de dados</a>
                     </th>
-                    <th>
-                        <select id="optMint">
-                            <option>LMDE 6 Faye</option>
-                            <option>LMDE 3 Cindy</option>
-                        </select>
-                    </th>
+                    <th>Iniciante</th>
                     <th>
                         <select>
-                            <option>32-bits</option>
-                            <option>64-bits</option>
+                            <option>&nbsp;</option>
                         </select>
                     </th>
                 </tr>
                 <!-- Linha -->
                 <tr>
                     <th>
-                        <a id="linkArch" href="#">Arch Linux</a>
+                        <a id="lcpu" href="./ini/all/cpu/index.html">Processadores (CPU)</a>
                     </th>
-                    <th>
-                        <select id="optArch">
-                            <option>&nbsp;</option>
-                        </select>
-                    </th>
+                    <th>Iniciante</th>
                     <th>
                         <select>
                             <option>&nbsp;</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="lbasicolinguagens" href="./ini/all/basiclanguages/index.html">Básico de Linguagens de
+                            Programação</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>&nbsp;</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha TEM QUE MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lpythonc" href="./ini/lin/ubuntu/pythonc/index.html">Primeiras Linguagens (Python +
+                            Linguagem C)</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="lbasicoweb" href="./int/all/parallelism/index.html">Paralelismo e Threads</a>
+                    </th>
+                    <th>Intermediário</th>
+                    <th>
+                        <select>
+                            <option>&nbsp;</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lcpp" href="./ini/lin/ubuntu/cpp/index.html">Programação Orientada a Objetos (C++)</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="lsistemasoperacionais" href="./ini/all/sistemoperational/index.html">Sistemas
+                            Operacionais</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>&nbsp;</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lformatacao" href="./ini/lin/ubuntu/formatacao/index.html">Formatação</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="lbasicoweb" href="./ini/all/basicwebdev/index.html">Básico de Desenvolvimento Web</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>&nbsp;</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lfrontend" href="./ini/lin/ubuntu/frontend/index.html">Frontend</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lbackend" href="./ini/lin/ubuntu/backend/index.html">Backend</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha -->
+                <tr>
+                    <th>
+                        <a id="larquiteturadesign" href="./int/all/arquiteture/index.html">Arquitetura e Design de
+                            Software</a>
+                    </th>
+                    <th>Intermediário</th>
+                    <th>
+                        <select>
+                            <option>&nbsp;</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lfullstack" href="./ini/lin/ubuntu/fullstack/index.html">Full-Stack</a>
+                    </th>
+                    <th>Iniciante</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lotimizacoesweb" href="./int/lin/ubuntu/otimizationweb/index.html">Otimizações para
+                            Web</a>
+                    </th>
+                    <th>Intermediário</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lcriarservidor" href="./int/lin/ubuntu/createserver/index.html">Criar um Servidor</a>
+                    </th>
+                    <th>Intermediário</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lcriarcompilada" href="./ava/lin/ubuntu/createcompile/index.html">Criar Linguagem
+                            Compilada</a>
+                    </th>
+                    <th>Avançado</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lcriarinterpretada" href="./ava/lin/ubuntu/createinterpreter/index.html">Criar Linguagem
+                            Interpretada</a>
+                    </th>
+                    <th>Avançado</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
+                        </select>
+                    </th>
+                </tr>
+                <!-- Linha MUDAR, TÁ SÓ PRO UBUNTU -->
+                <tr>
+                    <th>
+                        <a id="lcriarnavegador" href="./ava/lin/ubuntu/createbrowser/index.html">Criar um Navegador
+                            Web</a>
+                    </th>
+                    <th>Avançado</th>
+                    <th>
+                        <select>
+                            <option>Windows (7, 10, 11)</option>
+                            <option>macOS</option>
+                            <option>Linux (Ubuntu, Mint, Arch Linux)</option>
                         </select>
                     </th>
                 </tr>
@@ -92,12 +300,17 @@
     </div>
 
     <div id="explication">
-        <h2>For what this page was create?</h2>
+        <h2>Qual o Objetivo dessa Página?</h2>
         <br>
         <ul>
-            <li>Help begginers in how download and use the <strong>Linux distros</strong></li>
-            <li>Show the more right and fast way to use, configure, etc. a <strong>Linux distro</strong></li>
-            <li>Update you for new versions of <strong>Linux distros</strong></li>
+            <li>Ajudar iniciantes no <strong>mundo da computação</strong> (sejam estudantes ou não) sobre o que estudar
+                (na ordem certa);</li>
+            <li>Explicar conceitos complexos e avançados de formas simples, com exemplos práticos e reais;</li>
+            <li>Lhe gerar mais conteúdo do que um simples <strong><i>"aprenda essa Linguagem e ganhe R$5.000,00 por mês
+                        em 10 dias de estudo"</i></strong>;</li>
+            <li>Receber <strong>feedbacks</strong> de pessoas mais experiêntes para melhor o conteúdo de qualquer
+                assunto;</li>
+
         </ul>
     </div>
 
